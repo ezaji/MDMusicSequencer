@@ -1,19 +1,23 @@
-//
-//  MDMusicSequencer.h
-//  MDMusicSequencer
-//
-//  Created by Alex on 07.06.16.
-//  Copyright © 2016 MakarovDmitry. All rights reserved.
-//
 
-#import <Cocoa/Cocoa.h>
+
+
+#import "MDSequencer.h"
+#import "MDMusicTrack.h"
+#import "MDMusicTempoTrack.h"
+
+#import "MDMusicTrackEvent.h"
+#import "MDMIDINoteEvent.h"
+#import "MDMusicTrackEventUtilities.h"
+
+#import "MDMusicTrackEventEnumerator.h"
+#import "MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h"
+#import "MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h"
+
+#import "MDUtilities.h"
 
 //! Project version number for MDMusicSequencer.
 FOUNDATION_EXPORT double MDMusicSequencerVersionNumber;
 
 //! Project version string for MDMusicSequencer.
 FOUNDATION_EXPORT const unsigned char MDMusicSequencerVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <MDMusicSequencer/PublicHeader.h>
-
 

@@ -8,12 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		FAD2A8701D06D1DE006B407E /* MDMusicSequencer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A86F1D06D1DE006B407E /* MDMusicSequencer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8871D06D2C0006B407E /* MDUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8851D06D2C0006B407E /* MDUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8881D06D2C0006B407E /* MDUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8861D06D2C0006B407E /* MDUtilities.m */; };
+		FAD2A88C1D06D36C006B407E /* MDSequencer.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A88A1D06D36C006B407E /* MDSequencer.m */; };
+		FAD2A88D1D06D36C006B407E /* MDSequencer.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A88B1D06D36C006B407E /* MDSequencer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8931D06D3D9006B407E /* MDMusicTempoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A88F1D06D3D9006B407E /* MDMusicTempoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8941D06D3D9006B407E /* MDMusicTempoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8901D06D3D9006B407E /* MDMusicTempoTrack.m */; };
+		FAD2A8951D06D3D9006B407E /* MDMusicTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8911D06D3D9006B407E /* MDMusicTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8961D06D3D9006B407E /* MDMusicTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8921D06D3D9006B407E /* MDMusicTrack.m */; };
+		FAD2A89A1D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8981D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.h */; };
+		FAD2A89B1D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8991D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.m */; };
+		FAD2A89D1D06D422006B407E /* MDMusicTrackEventUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A89C1D06D422006B407E /* MDMusicTrackEventUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8A51D06D48A006B407E /* MDMIDINoteEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A89F1D06D48A006B407E /* MDMIDINoteEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8A61D06D48A006B407E /* MDMIDINoteEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8A01D06D48A006B407E /* MDMIDINoteEvent.m */; };
+		FAD2A8A71D06D48A006B407E /* MDMusicTrackEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8A11D06D48A006B407E /* MDMusicTrackEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8A81D06D48A006B407E /* MDMusicTrackEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8A21D06D48A006B407E /* MDMusicTrackEvent.m */; };
+		FAD2A8A91D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8A31D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.h */; };
+		FAD2A8AA1D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8A41D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.m */; };
+		FAD2A8B41D06D4E9006B407E /* MDMusicTrackEventEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8AE1D06D4E9006B407E /* MDMusicTrackEventEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8B51D06D4E9006B407E /* MDMusicTrackEventEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8AF1D06D4E9006B407E /* MDMusicTrackEventEnumerator.m */; };
+		FAD2A8B61D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8B01D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8B71D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8B11D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.m */; };
+		FAD2A8B81D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8B21D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAD2A8B91D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8B31D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.m */; };
+		FAD2A8BD1D06D517006B407E /* MDMusicTrackEventCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAD2A8BB1D06D517006B407E /* MDMusicTrackEventCreator.h */; };
+		FAD2A8BE1D06D517006B407E /* MDMusicTrackEventCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD2A8BC1D06D517006B407E /* MDMusicTrackEventCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAD2A86C1D06D1DE006B407E /* MDMusicSequencer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDMusicSequencer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD2A86F1D06D1DE006B407E /* MDMusicSequencer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMusicSequencer.h; sourceTree = "<group>"; };
 		FAD2A8711D06D1DE006B407E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD2A8851D06D2C0006B407E /* MDUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDUtilities.h; sourceTree = "<group>"; };
+		FAD2A8861D06D2C0006B407E /* MDUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDUtilities.m; sourceTree = "<group>"; };
+		FAD2A88A1D06D36C006B407E /* MDSequencer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSequencer.m; sourceTree = "<group>"; };
+		FAD2A88B1D06D36C006B407E /* MDSequencer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSequencer.h; sourceTree = "<group>"; };
+		FAD2A88F1D06D3D9006B407E /* MDMusicTempoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMusicTempoTrack.h; sourceTree = "<group>"; };
+		FAD2A8901D06D3D9006B407E /* MDMusicTempoTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMusicTempoTrack.m; sourceTree = "<group>"; };
+		FAD2A8911D06D3D9006B407E /* MDMusicTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMusicTrack.h; sourceTree = "<group>"; };
+		FAD2A8921D06D3D9006B407E /* MDMusicTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMusicTrack.m; sourceTree = "<group>"; };
+		FAD2A8981D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDMusicTrack+MDAccessMusicTrack.h"; sourceTree = "<group>"; };
+		FAD2A8991D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MDMusicTrack+MDAccessMusicTrack.m"; sourceTree = "<group>"; };
+		FAD2A89C1D06D422006B407E /* MDMusicTrackEventUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMusicTrackEventUtilities.h; sourceTree = "<group>"; };
+		FAD2A89F1D06D48A006B407E /* MDMIDINoteEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMIDINoteEvent.h; sourceTree = "<group>"; };
+		FAD2A8A01D06D48A006B407E /* MDMIDINoteEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMIDINoteEvent.m; sourceTree = "<group>"; };
+		FAD2A8A11D06D48A006B407E /* MDMusicTrackEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMusicTrackEvent.h; sourceTree = "<group>"; };
+		FAD2A8A21D06D48A006B407E /* MDMusicTrackEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMusicTrackEvent.m; sourceTree = "<group>"; };
+		FAD2A8A31D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDMusicTrackEvent+MDAccessMusicTrackEvent.h"; sourceTree = "<group>"; };
+		FAD2A8A41D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MDMusicTrackEvent+MDAccessMusicTrackEvent.m"; sourceTree = "<group>"; };
+		FAD2A8AE1D06D4E9006B407E /* MDMusicTrackEventEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMusicTrackEventEnumerator.h; sourceTree = "<group>"; };
+		FAD2A8AF1D06D4E9006B407E /* MDMusicTrackEventEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMusicTrackEventEnumerator.m; sourceTree = "<group>"; };
+		FAD2A8B01D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h"; sourceTree = "<group>"; };
+		FAD2A8B11D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MDMusicTrackEventEnumerator+MDMusicTrackEventManager.m"; sourceTree = "<group>"; };
+		FAD2A8B21D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h"; sourceTree = "<group>"; };
+		FAD2A8B31D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.m"; sourceTree = "<group>"; };
+		FAD2A8BB1D06D517006B407E /* MDMusicTrackEventCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMusicTrackEventCreator.h; sourceTree = "<group>"; };
+		FAD2A8BC1D06D517006B407E /* MDMusicTrackEventCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMusicTrackEventCreator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +96,99 @@
 		FAD2A86E1D06D1DE006B407E /* MDMusicSequencer */ = {
 			isa = PBXGroup;
 			children = (
+				FAD2A8891D06D31B006B407E /* MDUtilities */,
+				FAD2A8BF1D06D51F006B407E /* MDMusicTrackEventCreator */,
+				FAD2A8BA1D06D4F7006B407E /* MDMusicTrackEventEnumerator */,
+				FAD2A8AB1D06D490006B407E /* MDMusicTrackEvent */,
+				FAD2A8971D06D3DD006B407E /* MDMusicTrack */,
+				FAD2A88E1D06D36F006B407E /* MDSequencer */,
 				FAD2A86F1D06D1DE006B407E /* MDMusicSequencer.h */,
 				FAD2A8711D06D1DE006B407E /* Info.plist */,
 			);
 			path = MDMusicSequencer;
+			sourceTree = "<group>";
+		};
+		FAD2A8891D06D31B006B407E /* MDUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8851D06D2C0006B407E /* MDUtilities.h */,
+				FAD2A8861D06D2C0006B407E /* MDUtilities.m */,
+			);
+			name = MDUtilities;
+			sourceTree = "<group>";
+		};
+		FAD2A88E1D06D36F006B407E /* MDSequencer */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A88B1D06D36C006B407E /* MDSequencer.h */,
+				FAD2A88A1D06D36C006B407E /* MDSequencer.m */,
+			);
+			name = MDSequencer;
+			sourceTree = "<group>";
+		};
+		FAD2A8971D06D3DD006B407E /* MDMusicTrack */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8AC1D06D4AC006B407E /* AccessCategory */,
+				FAD2A88F1D06D3D9006B407E /* MDMusicTempoTrack.h */,
+				FAD2A8901D06D3D9006B407E /* MDMusicTempoTrack.m */,
+				FAD2A8911D06D3D9006B407E /* MDMusicTrack.h */,
+				FAD2A8921D06D3D9006B407E /* MDMusicTrack.m */,
+			);
+			name = MDMusicTrack;
+			sourceTree = "<group>";
+		};
+		FAD2A8AB1D06D490006B407E /* MDMusicTrackEvent */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8AD1D06D4B8006B407E /* AccessCategory */,
+				FAD2A8A11D06D48A006B407E /* MDMusicTrackEvent.h */,
+				FAD2A8A21D06D48A006B407E /* MDMusicTrackEvent.m */,
+				FAD2A89C1D06D422006B407E /* MDMusicTrackEventUtilities.h */,
+				FAD2A89F1D06D48A006B407E /* MDMIDINoteEvent.h */,
+				FAD2A8A01D06D48A006B407E /* MDMIDINoteEvent.m */,
+			);
+			name = MDMusicTrackEvent;
+			sourceTree = "<group>";
+		};
+		FAD2A8AC1D06D4AC006B407E /* AccessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8981D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.h */,
+				FAD2A8991D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.m */,
+			);
+			name = AccessCategory;
+			sourceTree = "<group>";
+		};
+		FAD2A8AD1D06D4B8006B407E /* AccessCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8A31D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.h */,
+				FAD2A8A41D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.m */,
+			);
+			name = AccessCategory;
+			sourceTree = "<group>";
+		};
+		FAD2A8BA1D06D4F7006B407E /* MDMusicTrackEventEnumerator */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8AE1D06D4E9006B407E /* MDMusicTrackEventEnumerator.h */,
+				FAD2A8AF1D06D4E9006B407E /* MDMusicTrackEventEnumerator.m */,
+				FAD2A8B01D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h */,
+				FAD2A8B11D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.m */,
+				FAD2A8B21D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h */,
+				FAD2A8B31D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.m */,
+			);
+			name = MDMusicTrackEventEnumerator;
+			sourceTree = "<group>";
+		};
+		FAD2A8BF1D06D51F006B407E /* MDMusicTrackEventCreator */ = {
+			isa = PBXGroup;
+			children = (
+				FAD2A8BB1D06D517006B407E /* MDMusicTrackEventCreator.h */,
+				FAD2A8BC1D06D517006B407E /* MDMusicTrackEventCreator.m */,
+			);
+			name = MDMusicTrackEventCreator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +198,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD2A89D1D06D422006B407E /* MDMusicTrackEventUtilities.h in Headers */,
+				FAD2A8A91D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.h in Headers */,
+				FAD2A8B81D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.h in Headers */,
+				FAD2A8A71D06D48A006B407E /* MDMusicTrackEvent.h in Headers */,
+				FAD2A8B41D06D4E9006B407E /* MDMusicTrackEventEnumerator.h in Headers */,
+				FAD2A8871D06D2C0006B407E /* MDUtilities.h in Headers */,
+				FAD2A8A51D06D48A006B407E /* MDMIDINoteEvent.h in Headers */,
+				FAD2A8951D06D3D9006B407E /* MDMusicTrack.h in Headers */,
+				FAD2A8931D06D3D9006B407E /* MDMusicTempoTrack.h in Headers */,
+				FAD2A8B61D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.h in Headers */,
+				FAD2A88D1D06D36C006B407E /* MDSequencer.h in Headers */,
+				FAD2A89A1D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.h in Headers */,
 				FAD2A8701D06D1DE006B407E /* MDMusicSequencer.h in Headers */,
+				FAD2A8BD1D06D517006B407E /* MDMusicTrackEventCreator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +282,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD2A8A81D06D48A006B407E /* MDMusicTrackEvent.m in Sources */,
+				FAD2A89B1D06D403006B407E /* MDMusicTrack+MDAccessMusicTrack.m in Sources */,
+				FAD2A8BE1D06D517006B407E /* MDMusicTrackEventCreator.m in Sources */,
+				FAD2A8961D06D3D9006B407E /* MDMusicTrack.m in Sources */,
+				FAD2A8A61D06D48A006B407E /* MDMIDINoteEvent.m in Sources */,
+				FAD2A8941D06D3D9006B407E /* MDMusicTempoTrack.m in Sources */,
+				FAD2A8B91D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackTempoEventManager.m in Sources */,
+				FAD2A8B51D06D4E9006B407E /* MDMusicTrackEventEnumerator.m in Sources */,
+				FAD2A8AA1D06D48A006B407E /* MDMusicTrackEvent+MDAccessMusicTrackEvent.m in Sources */,
+				FAD2A8B71D06D4E9006B407E /* MDMusicTrackEventEnumerator+MDMusicTrackEventManager.m in Sources */,
+				FAD2A88C1D06D36C006B407E /* MDSequencer.m in Sources */,
+				FAD2A8881D06D2C0006B407E /* MDUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
